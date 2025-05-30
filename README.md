@@ -28,3 +28,19 @@ Atualizar a tela não posso perder o login, quando logado não posso entrar na t
 - [Axios](https://github.com/axios/axios)  
 
 ---
+
+## Utilização da Aplicação
+
+1 - Para executar a aplicação é necessário acessar a raíz do repositório e utilizar o seguinte comando:
+```
+docker compose -p recrutamento-e-selecao -f ./docker/docker-compose.yaml up -d
+```
+
+2 - Após os containers subirem é só acessar o endereço a seguir:<br />
+[http://localhost::8080](http://localhost::8080)
+
+***Observação:*** para executar a aplicação do frontend separamente em modo de desenvolvimento será necessário antes instalar as dependências:
+```
+npm install // Instala dependências
+npm run dev // Executa em modo de desenvolvimento
+```

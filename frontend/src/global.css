@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    input {
+        max-height: 40px;
+        padding: 12px 8px;
+        border-radius: 8px;
+        border: none;
+        background-color: #efefef;
+    }
+
+    button {
+        max-height: 40px;
+        padding: 12px 8px;
+        color: #ffffff;
+        background-color: #75a2e6;
+        border: none;
+        border-radius: 8px;
+    }
+
+}
+
+.back-link {
+    margin-top: 16px;
+    
+    a {
+        cursor: pointer;
+        color: #000000;
+    }
+}
