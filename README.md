@@ -37,7 +37,7 @@ docker compose -p recrutamento-e-selecao -f ./docker/docker-compose.yaml up -d
 ```
 
 2 - Após os containers subirem é só acessar o endereço a seguir:<br />
-[http://localhost::8080](http://localhost::8080)
+[http://localhost:8080](http://localhost:8080)
 
 ***Observação:*** para executar a aplicação do frontend separamente em modo de desenvolvimento será necessário antes instalar as dependências:
 ```
